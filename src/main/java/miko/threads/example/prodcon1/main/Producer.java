@@ -1,4 +1,4 @@
-package miko.threads.example.prodcon1;
+package miko.threads.example.prodcon1.main;
 
 import miko.threads.example.prodcon1.util.CharacterLines;
 
@@ -13,7 +13,7 @@ public class Producer implements Runnable{
 
     private CharacterLines characterLines;
 
-    private SharedBuffer  buffer;
+    private SharedBuffer buffer;
 
     public Producer(CharacterLines characterLines, SharedBuffer buffer) {
         this.characterLines = characterLines;

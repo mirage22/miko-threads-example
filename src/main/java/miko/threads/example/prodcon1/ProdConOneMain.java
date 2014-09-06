@@ -1,5 +1,8 @@
 package miko.threads.example.prodcon1;
 
+import miko.threads.example.prodcon1.main.Consumer;
+import miko.threads.example.prodcon1.main.Producer;
+import miko.threads.example.prodcon1.main.SharedBuffer;
 import miko.threads.example.prodcon1.util.CharacterLines;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

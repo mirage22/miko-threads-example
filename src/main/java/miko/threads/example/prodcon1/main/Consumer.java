@@ -1,4 +1,4 @@
-package miko.threads.example.prodcon1;
+package miko.threads.example.prodcon1.main;
 
 import java.util.Random;
 

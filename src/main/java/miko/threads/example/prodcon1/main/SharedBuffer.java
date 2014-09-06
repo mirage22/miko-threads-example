@@ -1,4 +1,4 @@
-package miko.threads.example.prodcon1;
+package miko.threads.example.prodcon1.main;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -85,7 +85,7 @@ public class SharedBuffer {
 
             if(hasPendingLines()){
                 result = buffer.poll();
-                logger.debug(Thread.currentThread().getName() + ": BUFFER Line to Read: " +  buffer.size());
+                logger.debug(Thread.currentThread().getName() + ": BUFFER Line to Read: " + buffer.size());
                 space.signalAll();
             }
 
